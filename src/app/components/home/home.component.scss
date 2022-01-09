@@ -1,0 +1,30 @@
+div.home {
+    height: 800px;
+    background: #864841;
+    //background: #C5C3C6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    resize: vertical;
+    overflow: auto;
+    background-attachment: fixed;
+}
+
+.parallax {
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 100%;
+}

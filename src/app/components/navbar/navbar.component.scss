@@ -1,0 +1,17 @@
+div.center{
+    // /* Center child horizontally*/
+    justify-content: center;
+    //margin-left: -70px;
+}
+.abs {
+    position: absolute;
+    margin-top: 0px;
+    top: 8px;
+}
+
+.float {
+    position: relative;
+    margin-right: 0px;
+    margin-left: auto;
+}
+

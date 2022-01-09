@@ -8,3 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'myWebsite';
 }
+//Users/duhaochi/Library/Mobile Documents/com~apple~CloudDocs/gitHub/myWebsite/node_modules/bootstrap/dist/css/bootstrap.min.css
