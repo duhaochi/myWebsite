@@ -1,6 +1,6 @@
 div.home {
     height: 800px;
-    background: #864841;
+    background: #0371b9;
     //background: #C5C3C6;
     display: flex;
     flex-direction: column;
@@ -9,6 +9,10 @@ div.home {
     resize: vertical;
     overflow: auto;
     background-attachment: fixed;
+}
+
+body{
+    background: #284B63;
 }
 
 .parallax {
@@ -26,5 +30,70 @@ h1 {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
+    color: #F4F9E9;
     width: 100%;
+    font-family: 'Lato', sans-serif;
+    line-height: 100px;
+    font-size: 3.5rem;
+}
+
+.project_box{
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 55%;
+}
+
+#text3d {
+    color: #70869d;
+    letter-spacing: .15em;
+    text-shadow: 
+      -1px -1px 1px #efede3, 
+      0px 1px 0 #2e2e2e, 
+      0px 2px 0 #2c2c2c, 
+      0px 3px 0 #2a2a2a, 
+      0px 4px 0 #282828, 
+      0px 5px 0 #262626, 
+      0px 6px 0 #242424, 
+      0px 7px 0 #222, 
+      0px 8px 0 #202020, 
+      0px 9px 0 #1e1e1e, 
+      0px 10px 0 #1c1c1c, 
+      0px 11px 0 #1a1a1a, 
+      0px 12px 0 #181818, 
+      0px 13px 0 #161616, 
+      0px 14px 0 #141414, 
+      0px 15px 0 #121212,
+      2px 20px 5px rgba(0, 0, 0, 0.9),
+      5px 23px 5px rgba(0, 0, 0, 0.3),
+      8px 27px 8px rgba(0, 0, 0, 0.5),
+      8px 28px 35px rgba(0, 0, 0, 0.9);
+ }
+
+ h2, .h2 {
+    background: #C5C3C6;
+  font-size: 2.0em;
+  line-height: 1.6em;
+  margin: 15px 0 15px;
+  font-weight: 700;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  text-align: center;
+}
+
+.center {
+    font-family: arial;
+    font-size: 18px;
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  .paragraph{
+    text-align: center;
+}
+
+p {
+    color: #3C4857;
 }

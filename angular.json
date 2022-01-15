@@ -32,10 +32,14 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/jarallax/dist/jarallax.css",
               "src/styles.scss"
             ],
             "scripts": ["node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/jarallax/dist/jarallax.min.js",
+              "node_modules/jarallax/dist/jarallax-element.min.js",
+              "node_modules/jarallax/dist/jarallax-video.min.js",
               "node_modules/popper.js/dist/umd/popper.min.js"]
           },
           "configurations": {

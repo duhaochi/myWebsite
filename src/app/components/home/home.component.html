@@ -1,6 +1,103 @@
 
-<div class="home parallax" data-parallax="scroll" data-z-index="1"> 
-        <h1>Hi, I'm Haochi A software Engeneer</h1>
-        <p>currently a senior CS student</p>
- </div>
- <app-about></app-about>
+       
+       
+       
+       <div class="home parallax" data-parallax="scroll" data-z-index="1"> 
+                <h1 id="text3d">Hi, I'm HAOCHI,</h1>
+                <h5>full-time Software Engineer, part-time Artist</h5>
+
+                
+        </div>
+
+
+        <div class="center">
+                <h2>I do a bit of everything</h2>
+                <hr>  
+                <p class="paragraph">
+                        Well, I’ve been working on mobile app development for four years now, while still studying at college. Had my own projects, 
+                        coded mostly in Java and Python, but my account on the play store got suspended, for reasons I still fail to understand. But 
+                        I learned a lot, both at school and while working on the apps. Now I am looking to get a job with an innovative game studio, 
+                        and am glad to be interviewing with you here. Apart from coding, I enjoy reading a good book, or a nice evening out with friends.
+                         That would do for a short introduction, please tell me if you’d like me to elaborate on anything from my education, or experience with apps.
+                </p>
+        </div>
+
+
+        <div class="center">
+                <h2>Skills</h2>
+                <hr>  
+                <div class="row gutters-sm" *isVisible @listAnimation>
+                        <div class="col-sm-6 mb-3 col">
+                          <div class="card h-100">
+                            <div class="card-body">
+                              <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">assignment</i>Project Status</h6>
+                              <small>Web Design</small>
+                              <div class="progress mb-3" style="height: 5px">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <small>Website Markup</small>
+                              <div class="progress mb-3" style="height: 5px">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <small>One Page</small>
+                              <div class="progress mb-3" style="height: 5px">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <small>Mobile Template</small>
+                              <div class="progress mb-3" style="height: 5px">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <small>Backend API</small>
+                              <div class="progress mb-3" style="height: 5px">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6 mb-3">
+                                <div class="card h-100 col">
+                                <div class="card-body">
+                                <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">assignment</i>Project Status</h6>
+                                <small>Web Design</small>
+                                <div class="progress mb-3" style="height: 5px">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <small>Website Markup</small>
+                                <div class="progress mb-3" style="height: 5px">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <small>One Page</small>
+                                <div class="progress mb-3" style="height: 5px">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <small>Mobile Template</small>
+                                <div class="progress mb-3" style="height: 5px">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <small>Backend API</small>
+                                <div class="progress mb-3" style="height: 5px">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+                </div>
+
+        </div>
+
+        <div style="margin-top: auto;">
+                <h2>Projects</h2>
+                <hr style="max-width: 750px; margin-bottom: 30px; margin-left: auto; margin-right: auto;">  
+                <div style="text-align:center;">
+                        <div class="container-fluid project_box">
+                                <div *isVisible @listAnimation>
+                                        <app-projects class="col"></app-projects>
+                                        <app-projects class="col"></app-projects>
+                                        <app-projects class="col"></app-projects>
+                                        <app-projects class="col"></app-projects>
+                                        <app-projects class="col"></app-projects>
+                                <div class="container-fluid">
+                        <div class="px-lg-5">
+                </div>
+        </div>
